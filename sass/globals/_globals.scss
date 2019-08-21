@@ -1,0 +1,25 @@
+/* --- Globals --- */
+*,
+*:after,
+*:before {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.global-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  header.primary {
+    background: $primary;
+    padding: 1rem 0;
+  }
+  main.main {
+    flex: 1;
+  }
+  footer.primary {
+    background: $tertiary;
+    padding: 1rem 0;
+  }
+}
